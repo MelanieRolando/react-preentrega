@@ -1,0 +1,40 @@
+ *{
+  font-family: 'poppins', sans-serif;
+}
+
+.topBar {
+  background-color: #E6D2E5;
+  color: #4B2E83;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 0.85rem;
+}
+
+.middleBar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 12px 20px;
+  /* background-color: #f0f0f0;  */
+  background-color: white;
+}
+
+.logo {
+  text-align: center;
+  grid-column: 2;
+}
+
+.iconosContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  grid-column: 3;
+}
+
+.logo img {
+  height: 120px;
+  display: block;
+}
+
+
+
